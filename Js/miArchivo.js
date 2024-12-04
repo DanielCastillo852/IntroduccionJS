@@ -1,8 +1,6 @@
 const nombreUsuario = prompt("Para comenzar con esta pagina, digite su primer nombre");
 const apellidoUsuario = prompt("Ahora digite su apellido");
-
 alert(`Bienvenido a esta pagina ${nombreUsuario} ${apellidoUsuario}, a continuación pediremos una información adicional para darte un servicio mas personalizado`);
-
 const edadUsuario = prompt("Por favor ingrese su edad actual"); 
 if (edadUsuario < 18) {
     alert("Este programa tiene contenido para un publico de gente más mayor, puedes recomendarnos con tus conocidos que sean mayores de edad.")
